@@ -118,3 +118,72 @@
   text-align: center;
 }
 
+
+.ulIzquierda{
+  float: left;
+  list-style: none;
+  display: flex;
+}
+
+.iconMenu{
+  font-size: 20px;
+  color: white;
+}
+
+.tituloMenu{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.ulDerecha{
+  float: right;
+  /* list-style: none; */
+  display: flex;
+  padding-right: 30px;
+}
+
+.imageNavbar{
+  width: 20px;
+  height: 20px;
+  border-radius: 40%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+
+.ant-layout-header{
+  padding: 0px;
+}
+
+
+.containerDash{
+  padding: 0px 30px 30px 30px;
+}
+
+.body{
+  background-color: black;
+}
+
+.cardsContenedor{
+  text-align: center;
+}
+
+.cardsContenido{
+  padding:  0px 30px 30px 30px;
+  background-color: black;
+}
+
+.ant-statistic-title{
+  color: white;
+}
+
+
+@media(max-width: 992px){
+  .cardsContenedor{
+    padding-bottom: 15px;
+  }
+}

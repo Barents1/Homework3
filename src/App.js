@@ -7,6 +7,8 @@ import Inputs from './components/Inputs';
 import Message from './components/Message';
 import Modals from './components/Modals';
 import Typography1 from './components/Typography1';
+import DashBoard from './pages/DashBoard';
+import Router from './router/Router';
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
         <Formulario/>
         <hr/>
         <Modals/>
+        <hr/>
+        <Router/>
         <br></br>
       </div>
     </div>
